@@ -1,3 +1,13 @@
+### `kill` Command:
+
+The `kill` command in Linux is used to send signals to processes. By default, the signal sent is `SIGTERM` (signal number 15), which requests the termination of the process. However, you can also specify different signals using the signal name or number.
+
+### Syntax:
+
+```bash
+kill [OPTION] <PID>
+
+
 | Signal Number | Signal Name     | Full Form                 | Explanation                                                                 | Syntax Example                              |
 |---------------|-----------------|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------|
 | 1             | SIGHUP          | Hangup                    | Indicates that the terminal or controlling process has disconnected. Often used to reload configurations. | `kill -SIGHUP <pid>`                        |
