@@ -6,6 +6,9 @@ The `kill` command in Linux is used to send signals to processes. By default, th
 
 ```bash
 kill [OPTION] <PID>
+```
+
+
 
 
 | Signal Number | Signal Name     | Full Form                 | Explanation                                                                 | Syntax Example                              |
